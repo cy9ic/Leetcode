@@ -69,13 +69,6 @@ int main(){
         }
     }
 
-    // for(int i=0;i<row;i++){
-    //     for(int j=0;j<col;j++){
-    //         cout<<arr[i][j]<<" ";
-    //     }
-    //     cout<<endl;
-    // }
-
 solution * s = new solution();
 
 s->zeroSet(arr,row,col);
@@ -90,3 +83,20 @@ for(int i=0;i<row;i++){
     return 0;
 
     }
+
+
+
+
+    // Sample Input :           3 3 (rows and columns of the array to be made)
+    // Matrix values to be input:-
+    //                1 1 1
+    //                1 0 1
+    //                1 1 1           
+    
+    // Sample Output: 1 0 1
+    //                0 0 0
+    //                1 0 1
+
+
+
+// --------------------------------Harkaran------- Date: 2/November/2022
