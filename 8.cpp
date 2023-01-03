@@ -19,7 +19,7 @@ public:
         num = -1;
         i++;
     }
-long long res = 0;
+double res = 0;
     
     while(s[i]>='0' &&  s[i]<='9'){
         res =  res * 10 + (s[i]-'0');
